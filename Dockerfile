@@ -21,7 +21,7 @@ RUN	ssh-keygen -f /root/.ssh/id_rsa -q -N "" \
 
 WORKDIR	/root
 
-RUN	git clone https://github.com/StreisandEffect/streisand
+RUN	git clone https://github.com/jlund/streisand.git
 
 WORKDIR	/root/streisand
 

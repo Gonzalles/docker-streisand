@@ -8,7 +8,7 @@ Sets up a container running https://github.com/jlund/streisand, meant for deploy
 ### Easy Mode
 ```
 mkdir generated-docs
-sudo docker run -v generated-docs:/root/streisand/generated-docs/ -it gonzalles/streisand
+sudo docker run -v generated-docs:/root/streisand/generated-docs/ -it gdoteof/streisand
 ```
 
 This will prompt you to enter your API credentials

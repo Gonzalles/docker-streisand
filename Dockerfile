@@ -25,4 +25,4 @@ RUN	git clone https://github.com/jlund/streisand.git
 
 WORKDIR	/root/streisand
 
-CMD	["./streisand"]
+CMD	["./streisand --limit @/root/streisand/playbooks/localhost.retry"]
